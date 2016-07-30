@@ -1,6 +1,6 @@
 # Wolfie Keyboard
 
-This is a Windows Phone 8.0 app meant to bring Wolfram Alpha (www.wolframalpha.com) functionalities on Windows Phone.
+Wolfie Keyboard is a Windows Phone 8.0 app meant to bring Wolfram Alpha (www.wolframalpha.com) functionalities on Windows Phone.
 The app went live early 2014 and retired 2 years later from the Store following direct "kind, unmotivated complains" from WolframAlpha LLC itself, right after their official app went live.
 
 It totalized roughly 100k downloads, overall.
@@ -23,7 +23,7 @@ The app is fully localized in:
 * Spanish
 * Simplified Chineese
 
-Features of Wolfie:
+Features of Wolfie Keyboard:
 
 * Keyboards optimized for Math
 * Keyboards optimized for Statistics
