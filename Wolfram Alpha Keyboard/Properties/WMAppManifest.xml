@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Deployment xmlns="http://schemas.microsoft.com/windowsphone/2012/deployment" AppPlatformVersion="8.0">
+  <DefaultLanguage xmlns="" code="en-US" />
+  <Languages xmlns="">
+    <Language code="es" />
+    <Language code="it" />
+    <Language code="pt" />
+    <Language code="qps-ploc" />
+    <Language code="zh" />
+  </Languages>
+  <App xmlns="" ProductID="{011f707f-ddcf-42cf-b1ea-9a0baf7f7665}" Title="Wolfie Keyboard" RuntimeType="Silverlight" Version="2.0.1.2" Genre="apps.normal" Author="Guido" Description="Wolfie is a simple application that allows you to easily interface to the well-known WolframAlpha website.&#xD;&#xA;It of course requires an avalaible internet connection (either mobile or wi-fi one).&#xD;&#xA;Rate the app if you like it!" Publisher="Guido" PublisherID="{5439444d-703e-4560-a45f-1c871baeffdb}">
+    <IconPath IsRelative="true" IsResource="false">Images\Tiles\Wolfie_icon_clean.png</IconPath>
+    <Capabilities>
+      <Capability Name="ID_CAP_NETWORKING" />
+      <Capability Name="ID_CAP_WEBBROWSERCOMPONENT" />
+      <Capability Name="ID_CAP_IDENTITY_DEVICE" />
+      <Capability Name="ID_CAP_MEDIALIB_PHOTO" />
+      <Capability Name="ID_CAP_PHONEDIALER" />
+      <Capability Name="ID_CAP_IDENTITY_USER" />
+    </Capabilities>
+    <Tasks>
+      <DefaultTask Name="_default" NavigationPage="MainPage.xaml" />
+    </Tasks>
+    <Tokens>
+      <PrimaryToken TokenID="Wolfram_Alpha_KeyboardToken" TaskName="_default">
+        <TemplateFlip>
+          <SmallImageURI IsRelative="true" IsResource="false">Images\Tiles\Small_tile_clean.png</SmallImageURI>
+          <Count>0</Count>
+          <BackgroundImageURI IsRelative="true" IsResource="false">Images\Tiles\Medium_tile_clean.png</BackgroundImageURI>
+          <Title>
+          </Title>
+          <BackContent>
+          </BackContent>
+          <BackBackgroundImageURI IsRelative="true" IsResource="false">
+          </BackBackgroundImageURI>
+          <BackTitle>
+          </BackTitle>
+          <LargeBackgroundImageURI IsRelative="true" IsResource="false">Images\Tiles\Large_tile_clean.png</LargeBackgroundImageURI>
+          <LargeBackContent />
+          <LargeBackBackgroundImageURI IsRelative="true" IsResource="false">
+          </LargeBackBackgroundImageURI>
+          <DeviceLockImageURI IsRelative="true" IsResource="false">
+          </DeviceLockImageURI>
+          <HasLarge>True</HasLarge>
+        </TemplateFlip>
+      </PrimaryToken>
+    </Tokens>
+    <Extensions>
+      <Protocol Name="wolfie" NavUriFragment="encodedLaunchUri=%s" TaskID="_default" />
+    </Extensions>
+    <ScreenResolutions>
+      <ScreenResolution Name="ID_RESOLUTION_WVGA" />
+      <ScreenResolution Name="ID_RESOLUTION_WXGA" />
+      <ScreenResolution Name="ID_RESOLUTION_HD720P" />
+    </ScreenResolutions>
+  </App>
+</Deployment>

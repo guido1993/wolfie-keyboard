@@ -1,0 +1,250 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="qps-ploc" original="AppResources.resx" tool-id="MultilingualAppToolkit" product-name="Wolfram Alpha Keyboard" product-version="2.0.1.2" build-num="1">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="3.1.1250.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="Resx">
+        <trans-unit id="Resx/ResourceFlowDirection" translate="yes" xml:space="preserve">
+          <source>LeftToRight</source>
+          <target state="translated">LeftToRight</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language</note>
+          </trans-unit>
+        <trans-unit id="Resx/ResourceLanguage" translate="yes" xml:space="preserve">
+          <source>en-US</source>
+          <target state="translated">qps-ploc</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</note>
+          </trans-unit>
+        <trans-unit id="Resx/AppBarButtonText" translate="yes" xml:space="preserve">
+          <source>add</source>
+          <target state="new">add</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppBarMenuItemText" translate="yes" xml:space="preserve">
+          <source>Menu Item</source>
+          <target state="new">Menu Item</target>
+        </trans-unit>
+        <trans-unit id="Resx/ApplicationTitle" translate="yes" xml:space="preserve">
+          <source>MY APPLICATION</source>
+          <target state="new">MY APPLICATION</target>
+        </trans-unit>
+        <trans-unit id="Resx/RecentSearches" translate="yes" xml:space="preserve">
+          <source>Recent searches:</source>
+          <target state="new">Recent searches:</target>
+        </trans-unit>
+        <trans-unit id="Resx/EmptyHistory" translate="yes" xml:space="preserve">
+          <source>You haven't searched for anything yet! Tap on the search box above to get started :-)</source>
+          <target state="new">You haven't searched for anything yet! Tap on the search box above to get started :-)</target>
+        </trans-unit>
+        <trans-unit id="Resx/Favourites" translate="yes" xml:space="preserve">
+          <source>Favourites:</source>
+          <target state="new">Favourites:</target>
+        </trans-unit>
+        <trans-unit id="Resx/RateThisApp" translate="yes" xml:space="preserve">
+          <source>Rate this App!</source>
+          <target state="new">Rate this App!</target>
+        </trans-unit>
+        <trans-unit id="Resx/Tutorial" translate="yes" xml:space="preserve">
+          <source>Tutorial</source>
+          <target state="new">Tutorial</target>
+        </trans-unit>
+        <trans-unit id="Resx/About" translate="yes" xml:space="preserve">
+          <source>about</source>
+          <target state="new">about</target>
+        </trans-unit>
+        <trans-unit id="Resx/StatsTrigonometry" translate="yes" xml:space="preserve">
+          <source>Stats/Trigonometry</source>
+          <target state="new">Stats/Trigonometry</target>
+        </trans-unit>
+        <trans-unit id="Resx/SwipeToContinue" translate="yes" xml:space="preserve">
+          <source>Swipe to continue   ››</source>
+          <target state="new">Swipe to continue   ››</target>
+        </trans-unit>
+        <trans-unit id="Resx/WelcomeTo" translate="yes" xml:space="preserve">
+          <source>Welcome to</source>
+          <target state="new">Welcome to</target>
+        </trans-unit>
+        <trans-unit id="Resx/WellDone" translate="yes" xml:space="preserve">
+          <source>Well done!</source>
+          <target state="new">Well done!</target>
+        </trans-unit>
+        <trans-unit id="Resx/ClearFavourites" translate="yes" xml:space="preserve">
+          <source>Clear Favourites</source>
+          <target state="new">Clear Favourites</target>
+        </trans-unit>
+        <trans-unit id="Resx/ClearHistory" translate="yes" xml:space="preserve">
+          <source>Clear History</source>
+          <target state="new">Clear History</target>
+        </trans-unit>
+        <trans-unit id="Resx/PinTransparent" translate="yes" xml:space="preserve">
+          <source>Pin transparent tile</source>
+          <target state="new">Pin transparent tile</target>
+        </trans-unit>
+        <trans-unit id="Resx/TileAlreadyPinned" translate="yes" xml:space="preserve">
+          <source>Tile is already pinned. Before proceeding, unpin the existing one!</source>
+          <target state="new">Tile is already pinned. Before proceeding, unpin the existing one!</target>
+        </trans-unit>
+        <trans-unit id="Resx/CopyURLtoClipboard" translate="yes" xml:space="preserve">
+          <source>Copy last search URL to Clipboard</source>
+          <target state="new">Copy last search URL to Clipboard</target>
+        </trans-unit>
+        <trans-unit id="Resx/AddToFavourites" translate="yes" xml:space="preserve">
+          <source>Add to Favourites</source>
+          <target state="new">Add to Favourites</target>
+        </trans-unit>
+        <trans-unit id="Resx/Contacts" translate="yes" xml:space="preserve">
+          <source>Contacts</source>
+          <target state="new">Contacts</target>
+        </trans-unit>
+        <trans-unit id="Resx/DeleteItem" translate="yes" xml:space="preserve">
+          <source>Delete Item</source>
+          <target state="new">Delete Item</target>
+        </trans-unit>
+        <trans-unit id="Resx/Spanish" translate="yes" xml:space="preserve">
+          <source>Spanish</source>
+          <target state="new">Spanish</target>
+        </trans-unit>
+        <trans-unit id="Resx/Portoguese" translate="yes" xml:space="preserve">
+          <source>Portoguese</source>
+          <target state="new">Portoguese</target>
+        </trans-unit>
+        <trans-unit id="Resx/Italian" translate="yes" xml:space="preserve">
+          <source>Italian</source>
+          <target state="new">Italian</target>
+        </trans-unit>
+        <trans-unit id="Resx/English" translate="yes" xml:space="preserve">
+          <source>English</source>
+          <target state="new">English</target>
+        </trans-unit>
+        <trans-unit id="Resx/Tongue" translate="yes" xml:space="preserve">
+          <source>Tongue</source>
+          <target state="new">Tongue</target>
+        </trans-unit>
+        <trans-unit id="Resx/TranslationRequest2" translate="yes" xml:space="preserve">
+          <source>for more info! Thanks in advance!</source>
+          <target state="new">for more info! Thanks in advance!</target>
+        </trans-unit>
+        <trans-unit id="Resx/TranslationRequest1" translate="yes" xml:space="preserve">
+          <source>Do you want to make your contribution into Wolfie Keyboard translation and get your name here? Reach me out at:</source>
+          <target state="new">Do you want to make your contribution into Wolfie Keyboard translation and get your name here? Reach me out at:</target>
+        </trans-unit>
+        <trans-unit id="Resx/TranslatorsHeaderButton" translate="yes" xml:space="preserve">
+          <source>Translators of Wolfie</source>
+          <target state="new">Translators of Wolfie</target>
+        </trans-unit>
+        <trans-unit id="Resx/TranslatorsText" translate="yes" xml:space="preserve">
+          <source>Translators</source>
+          <target state="new">Translators</target>
+        </trans-unit>
+        <trans-unit id="Resx/Chinese" translate="yes" xml:space="preserve">
+          <source>Chinese</source>
+          <target state="new">Chinese</target>
+        </trans-unit>
+        <trans-unit id="Resx/Tutorial1Top" translate="yes" xml:space="preserve">
+          <source>Wolfie is an advanced keyboard that allows you to interface the well-known WolframAlpha website.</source>
+          <target state="new">Wolfie is an advanced keyboard that allows you to interface the well-known WolframAlpha website.</target>
+        </trans-unit>
+        <trans-unit id="Resx/Tutorial1Bottom" translate="yes" xml:space="preserve">
+          <source>Wolfie can solve almost everything, from calculus to quantum physics.</source>
+          <target state="new">Wolfie can solve almost everything, from calculus to quantum physics.</target>
+        </trans-unit>
+        <trans-unit id="Resx/ResetAppConfirmationButton" translate="yes" xml:space="preserve">
+          <source>Reset Wolfie</source>
+          <target state="new">Reset Wolfie</target>
+        </trans-unit>
+        <trans-unit id="Resx/ResetAppConfirmation" translate="yes" xml:space="preserve">
+          <source>This will delete any data associated with Wolfie and reset it. Do you wish to continue?</source>
+          <target state="new">This will delete any data associated with Wolfie and reset it. Do you wish to continue?</target>
+        </trans-unit>
+        <trans-unit id="Resx/LoadingText" translate="yes" xml:space="preserve">
+          <source>Loading</source>
+          <target state="new">Loading</target>
+        </trans-unit>
+        <trans-unit id="Resx/RecentSearchesSaving" translate="yes" xml:space="preserve">
+          <source>Recent searches saving</source>
+          <target state="new">Recent searches saving</target>
+        </trans-unit>
+        <trans-unit id="Resx/EmptyListsMessage" translate="yes" xml:space="preserve">
+          <source>Are you sure?</source>
+          <target state="new">Are you sure?</target>
+        </trans-unit>
+        <trans-unit id="Resx/EnhancedMathKeyboards" translate="yes" xml:space="preserve">
+          <source>Enhanced math keyboards</source>
+          <target state="new">Enhanced math keyboards</target>
+        </trans-unit>
+        <trans-unit id="Resx/FavouritesManagement" translate="yes" xml:space="preserve">
+          <source>Favourites management</source>
+          <target state="new">Favourites management</target>
+        </trans-unit>
+        <trans-unit id="Resx/FeaturesOfWolfie" translate="yes" xml:space="preserve">
+          <source>Features of Wolfie</source>
+          <target state="new">Features of Wolfie</target>
+        </trans-unit>
+        <trans-unit id="Resx/GetStarted" translate="yes" xml:space="preserve">
+          <source>get started!</source>
+          <target state="new">get started!</target>
+        </trans-unit>
+        <trans-unit id="Resx/CopiedToClipboard" translate="yes" xml:space="preserve">
+          <source>Text correctly copied to clipboard.</source>
+          <target state="new">Text correctly copied to clipboard.</target>
+        </trans-unit>
+        <trans-unit id="Resx/DevelopedBy" translate="yes" xml:space="preserve">
+          <source>Developed by:</source>
+          <target state="new">Developed by:</target>
+        </trans-unit>
+        <trans-unit id="Resx/DesignedBy" translate="yes" xml:space="preserve">
+          <source>Designed by:</source>
+          <target state="new">Designed by:</target>
+        </trans-unit>
+        <trans-unit id="Resx/CopyrightText" translate="yes" xml:space="preserve">
+          <source>Wolfie Keyboard is an intellectual property of its two creators. It's not meant to violate any copyright. It isn't associated in any way to Wolfram Alpha LLC and can't be considered an official product of theirs.</source>
+          <target state="new">Wolfie Keyboard is an intellectual property of its two creators. It's not meant to violate any copyright. It isn't associated in any way to Wolfram Alpha LLC and can't be considered an official product of theirs.</target>
+        </trans-unit>
+        <trans-unit id="Resx/CopyToClipboard" translate="yes" xml:space="preserve">
+          <source>Copy to Clipboard</source>
+          <target state="new">Copy to Clipboard</target>
+        </trans-unit>
+        <trans-unit id="Resx/ConfirmText" translate="yes" xml:space="preserve">
+          <source>Confirm</source>
+          <target state="new">Confirm</target>
+        </trans-unit>
+        <trans-unit id="Resx/ChemistryBiology" translate="yes" xml:space="preserve">
+          <source>Chemistry/Biology</source>
+          <target state="new">Chemistry/Biology</target>
+        </trans-unit>
+        <trans-unit id="Resx/ClearDisplay" translate="yes" xml:space="preserve">
+          <source>Clear Display</source>
+          <target state="new">Clear Display</target>
+        </trans-unit>
+        <trans-unit id="Resx/Basic" translate="yes" xml:space="preserve">
+          <source>Basic</source>
+          <target state="new">Basic</target>
+        </trans-unit>
+        <trans-unit id="Resx/Advanced" translate="yes" xml:space="preserve">
+          <source>Advanced</source>
+          <target state="new">Advanced</target>
+        </trans-unit>
+        <trans-unit id="Resx/AdvicedApps" translate="yes" xml:space="preserve">
+          <source>Adviced apps:</source>
+          <target state="new">Adviced apps:</target>
+        </trans-unit>
+        <trans-unit id="Resx/ResetApp" translate="yes" xml:space="preserve">
+          <source>Reset Wolfie</source>
+          <target state="new">Reset Wolfie</target>
+        </trans-unit>
+        <trans-unit id="Resx/OtherFunctions" translate="yes" xml:space="preserve">
+          <source>Other Functions:</source>
+          <target state="new">Other Functions:</target>
+        </trans-unit>
+        <trans-unit id="Resx/FunnySearches" translate="yes" xml:space="preserve">
+          <source>Funny searches:</source>
+          <target state="new">Funny searches:</target>
+        </trans-unit>
+        <trans-unit id="Resx/EmptyFavourites" translate="yes" xml:space="preserve">
+          <source>Nothing here! Tap and hold a history entry to place it here :-)</source>
+          <target state="new">Nothing here! Tap and hold a history entry to place it here :-)</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

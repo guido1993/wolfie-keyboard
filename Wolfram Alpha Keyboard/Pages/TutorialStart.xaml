@@ -1,0 +1,70 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="Wolfram_Alpha_Keyboard.Pages.TutorialStart"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="True"
+    shell:SystemTray.ForegroundColor="#EE7B00"
+    shell:SystemTray.BackgroundColor="#e3e3e3">
+
+
+    <Grid x:Name="LayoutRoot" Background="#e3e3e3">        
+        <phone:Pivot HorizontalAlignment="Left" Height="748" Margin="0,10,0,0" VerticalAlignment="Top" Width="470">
+            <!-- primo pivot -->
+            <phone:PivotItem CacheMode="{x:Null}">                
+                <StackPanel Margin="-10,-40,-10,-10">
+                    <TextBlock Text="{Binding Source={StaticResource LocalizedStrings},Path=LocalizedResources.WelcomeTo}" HorizontalAlignment="Center" Margin="0,20,0,0" FontSize="76" Foreground="#EE7B00" FontFamily="Georgia"/>
+                    <TextBlock Text="Wolfie" Margin="0,0,0,0" HorizontalAlignment="Center" FontSize="76" Foreground="#EE7B00" FontFamily="Georgia"/>
+                    <TextBlock Text="{Binding Source={StaticResource LocalizedStrings},Path=LocalizedResources.Tutorial1Top}" Margin="0,40,0,0" Height="173" Width="400" TextWrapping="Wrap" TextAlignment="Center" FontSize="28" Foreground="#383838" FontFamily="Georgia"/>
+                    <Image Source="/Images/Tutorial/Screen1.png" Height="270" Width="460" Margin="0,-20,0,0"/>
+                    <TextBlock Text="{Binding Source={StaticResource LocalizedStrings},Path=LocalizedResources.Tutorial1Bottom}" Margin="0,-170,0,0" Height="173" Width="460" TextWrapping="Wrap" TextAlignment="Center" FontSize="24" Foreground="#383838" FontFamily="Georgia"/>
+                    <TextBlock Text="{Binding Source={StaticResource LocalizedStrings},Path=LocalizedResources.SwipeToContinue}" HorizontalAlignment="Center" Margin="20,30,0,0" FontSize="25" Foreground="#D10A10" FontFamily="Georgia" FontStretch="UltraExpanded"/>
+                </StackPanel>
+            </phone:PivotItem>
+            <phone:PivotItem CacheMode="{x:Null}">
+                <StackPanel Margin="-10,-40,-10,-10">
+                    <TextBlock Text="{Binding Source={StaticResource LocalizedStrings},Path=LocalizedResources.FeaturesOfWolfie}" HorizontalAlignment="Center" Margin="0,20,0,0" FontSize="45" Foreground="#EE7B00" FontFamily="Georgia"/>
+                    <TextBlock Text="{Binding Source={StaticResource LocalizedStrings},Path=LocalizedResources.EnhancedMathKeyboards}" HorizontalAlignment="Center" Margin="0,50,0,0" FontSize="33" FontFamily="Georgia" Foreground="#383838"/>
+                        <Image Source="/Images/Tutorial/KeyBoard1.png" Height="160" Width="300" Margin="0,10,0,0"/>
+                        <Image Source="/Images/Tutorial/KeyBoard2.png" Height="160" Width="300"/>
+                        <Image Source="/Images/Tutorial/KeyBoard3.png" Height="160" Width="300"/>
+                        <Image Source="/Images/Tutorial/circles_1.png" Height="37" Width="117" Margin="0,45,0,0"/>
+                    </StackPanel>
+            </phone:PivotItem>
+            <phone:PivotItem CacheMode="{x:Null}">
+                <StackPanel Margin="-10,-40,-10,-10">
+                    <TextBlock Text="{Binding Source={StaticResource LocalizedStrings},Path=LocalizedResources.FeaturesOfWolfie}" HorizontalAlignment="Center" Margin="0,20,0,0" FontSize="45" Foreground="#EE7B00" FontFamily="Georgia"/>
+                    <TextBlock Text="{Binding Source={StaticResource LocalizedStrings},Path=LocalizedResources.RecentSearchesSaving}" HorizontalAlignment="Center" Margin="0,50,0,0" FontSize="33" FontFamily="Georgia" Foreground="#383838"/>
+                        <Image Source="/Images/Tutorial/History.png" Height="500" Width="400" Margin="0,20,0,0"/>
+                        <Image Source="/Images/Tutorial/circles_2.png" Height="37" Width="117" Margin="0,15,0,0"/>
+                    </StackPanel>
+            </phone:PivotItem>
+            <phone:PivotItem CacheMode="{x:Null}">
+                <StackPanel Margin="-10,-40,-10,-10">
+                    <TextBlock Text="{Binding Source={StaticResource LocalizedStrings},Path=LocalizedResources.FeaturesOfWolfie}" HorizontalAlignment="Center" Margin="0,20,0,0" FontSize="45" Foreground="#EE7B00" FontFamily="Georgia"/>
+                    <TextBlock Text="{Binding Source={StaticResource LocalizedStrings},Path=LocalizedResources.FavouritesManagement}" HorizontalAlignment="Center" Margin="0,50,0,0" FontSize="33" FontFamily="Georgia" Foreground="#383838"/>
+                        <Image Source="/Images/Tutorial/AddToFavourites.png" Height="245" Width="400" Margin="0,40,0,0"/>
+                        <Image Source="/Images/Tutorial/Favourites.png" Height="245" Width="400" Margin="0,-15,0,0"/>
+                        <Image Source="/Images/Tutorial/circles_3.png" Height="37" Width="117" Margin="0,20,0,0"/>
+                    </StackPanel>
+            </phone:PivotItem>
+            <phone:PivotItem CacheMode="{x:Null}">
+                <StackPanel Margin="-10,-40,-10,-10">
+                        <TextBlock Text="{Binding Source={StaticResource LocalizedStrings},Path=LocalizedResources.WelcomeTo}" HorizontalAlignment="Center" Margin="0,20,0,0" FontSize="76" Foreground="#EE7B00" FontFamily="Georgia"/>
+                    <TextBlock Text="Wolfie" Margin="0,0,0,0" HorizontalAlignment="Center" FontSize="76" Foreground="#EE7B00" FontFamily="Georgia"/>
+                    <TextBlock Text="{Binding Source={StaticResource LocalizedStrings},Path=LocalizedResources.WellDone}" HorizontalAlignment="Center" FontSize="40" Margin="0,180,0,0" Foreground="#383838" FontFamily="Georgia"/>
+                    <Button Width="280" Height="90" Margin="0,10,0,0" Content="{Binding Source={StaticResource LocalizedStrings},Path=LocalizedResources.GetStarted}" Background="#D10A10" Foreground="White" FontFamily="Georgia" BorderBrush="Transparent" Tap="Button_Tap" FontSize="30" Style="{StaticResource GetStartedStyle}"/>
+                    </StackPanel>
+            </phone:PivotItem>
+        </phone:Pivot>
+    </Grid>
+
+</phone:PhoneApplicationPage>

@@ -1,0 +1,251 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="zh" original="AppResources.resx" tool-id="MultilingualAppToolkit" product-name="Wolfram Alpha Keyboard" product-version="2.0.1.2" build-num="1">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="3.1.1250.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="Resx">
+        <trans-unit id="Resx/ResourceFlowDirection" translate="yes" xml:space="preserve">
+          <source>LeftToRight</source>
+          <target state="translated">LeftToRight</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language</note>
+          </trans-unit>
+        <trans-unit id="Resx/ResourceLanguage" translate="yes" xml:space="preserve">
+          <source>en-US</source>
+          <target state="translated">zh</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</note>
+          </trans-unit>
+        <trans-unit id="Resx/AppBarButtonText" translate="yes" xml:space="preserve">
+          <source>add</source>
+          <target state="new">add</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppBarMenuItemText" translate="yes" xml:space="preserve">
+          <source>Menu Item</source>
+          <target state="new">Menu Item</target>
+        </trans-unit>
+        <trans-unit id="Resx/ApplicationTitle" translate="yes" xml:space="preserve">
+          <source>MY APPLICATION</source>
+          <target state="new">MY APPLICATION</target>
+        </trans-unit>
+        <trans-unit id="Resx/RecentSearches" translate="yes" xml:space="preserve">
+          <source>Recent searches:</source>
+          <target state="translated">最近搜索</target>
+        </trans-unit>
+        <trans-unit id="Resx/EmptyHistory" translate="yes" xml:space="preserve">
+          <source>You haven't searched for anything yet! Tap on the search box above to get started :-)</source>
+          <target state="translated">您还没有搜索任何东西！点击上面的搜索框吧</target>
+        </trans-unit>
+        <trans-unit id="Resx/EmptyFavourites" translate="yes" xml:space="preserve">
+          <source>Nothing here! Tap and hold a history entry to place it here :-)</source>
+          <target state="translated">这儿没东西！按住历史里的一个条目把它放到这儿 J</target>
+        </trans-unit>
+        <trans-unit id="Resx/Favourites" translate="yes" xml:space="preserve">
+          <source>Favourites:</source>
+          <target state="translated">收藏：</target>
+        </trans-unit>
+        <trans-unit id="Resx/FunnySearches" translate="yes" xml:space="preserve">
+          <source>Funny searches:</source>
+          <target state="translated">有趣的搜素</target>
+        </trans-unit>
+        <trans-unit id="Resx/OtherFunctions" translate="yes" xml:space="preserve">
+          <source>Other Functions:</source>
+          <target state="translated">其他功能：</target>
+        </trans-unit>
+        <trans-unit id="Resx/RateThisApp" translate="yes" xml:space="preserve">
+          <source>Rate this App!</source>
+          <target state="translated">评论此应用</target>
+        </trans-unit>
+        <trans-unit id="Resx/ResetApp" translate="yes" xml:space="preserve">
+          <source>Reset Wolfie</source>
+          <target state="translated">重置Wolfie</target>
+        </trans-unit>
+        <trans-unit id="Resx/Tutorial" translate="yes" xml:space="preserve">
+          <source>Tutorial</source>
+          <target state="translated">教程</target>
+        </trans-unit>
+        <trans-unit id="Resx/About" translate="yes" xml:space="preserve">
+          <source>about</source>
+          <target state="translated">关于</target>
+        </trans-unit>
+        <trans-unit id="Resx/Advanced" translate="yes" xml:space="preserve">
+          <source>Advanced</source>
+          <target state="translated">高级</target>
+        </trans-unit>
+        <trans-unit id="Resx/AdvicedApps" translate="yes" xml:space="preserve">
+          <source>Adviced apps:</source>
+          <target state="translated">推荐的应用：</target>
+        </trans-unit>
+        <trans-unit id="Resx/Basic" translate="yes" xml:space="preserve">
+          <source>Basic</source>
+          <target state="translated">基本</target>
+        </trans-unit>
+        <trans-unit id="Resx/ChemistryBiology" translate="yes" xml:space="preserve">
+          <source>Chemistry/Biology</source>
+          <target state="translated">化学、生物学</target>
+        </trans-unit>
+        <trans-unit id="Resx/ClearDisplay" translate="yes" xml:space="preserve">
+          <source>Clear Display</source>
+          <target state="translated">清除显示</target>
+        </trans-unit>
+        <trans-unit id="Resx/ConfirmText" translate="yes" xml:space="preserve">
+          <source>Confirm</source>
+          <target state="translated">确认</target>
+        </trans-unit>
+        <trans-unit id="Resx/CopiedToClipboard" translate="yes" xml:space="preserve">
+          <source>Text correctly copied to clipboard.</source>
+          <target state="translated">文字已拷贝到剪贴板。</target>
+        </trans-unit>
+        <trans-unit id="Resx/CopyrightText" translate="yes" xml:space="preserve">
+          <source>Wolfie Keyboard is an intellectual property of its two creators. It's not meant to violate any copyright. It isn't associated in any way to Wolfram Alpha LLC and can't be considered an official product of theirs.</source>
+          <target state="translated">Wolfie是它的两个创作者的知识产权。这并不意味着侵犯任何版权。这是不相关的以任何方式Wolfram Alpha的有限责任公司，不能被认为是他们的正式产品。</target>
+        </trans-unit>
+        <trans-unit id="Resx/CopyToClipboard" translate="yes" xml:space="preserve">
+          <source>Copy to Clipboard</source>
+          <target state="translated">拷贝到剪贴板。</target>
+        </trans-unit>
+        <trans-unit id="Resx/DesignedBy" translate="yes" xml:space="preserve">
+          <source>Designed by:</source>
+          <target state="translated">设计师：</target>
+        </trans-unit>
+        <trans-unit id="Resx/DevelopedBy" translate="yes" xml:space="preserve">
+          <source>Developed by:</source>
+          <target state="translated">开发者：</target>
+        </trans-unit>
+        <trans-unit id="Resx/EmptyListsMessage" translate="yes" xml:space="preserve">
+          <source>Are you sure?</source>
+          <target state="translated">确认？</target>
+        </trans-unit>
+        <trans-unit id="Resx/EnhancedMathKeyboards" translate="yes" xml:space="preserve">
+          <source>Enhanced math keyboards</source>
+          <target state="translated">增强数学键盘</target>
+        </trans-unit>
+        <trans-unit id="Resx/FavouritesManagement" translate="yes" xml:space="preserve">
+          <source>Favourites management</source>
+          <target state="translated">收藏管理</target>
+        </trans-unit>
+        <trans-unit id="Resx/FeaturesOfWolfie" translate="yes" xml:space="preserve">
+          <source>Features of Wolfie</source>
+          <target state="translated">Wolfie的功能</target>
+        </trans-unit>
+        <trans-unit id="Resx/GetStarted" translate="yes" xml:space="preserve">
+          <source>get started!</source>
+          <target state="translated">开始！</target>
+        </trans-unit>
+        <trans-unit id="Resx/LoadingText" translate="yes" xml:space="preserve">
+          <source>Loading</source>
+          <target state="translated">加载</target>
+        </trans-unit>
+        <trans-unit id="Resx/RecentSearchesSaving" translate="yes" xml:space="preserve">
+          <source>Recent searches saving</source>
+          <target state="translated">正在保存最近搜索</target>
+        </trans-unit>
+        <trans-unit id="Resx/ResetAppConfirmation" translate="yes" xml:space="preserve">
+          <source>This will delete any data associated with Wolfie and reset it. Do you wish to continue?</source>
+          <target state="translated">这会删除任何关于Wolfie的数据并会重置。你要前往吗？</target>
+        </trans-unit>
+        <trans-unit id="Resx/ResetAppConfirmationButton" translate="yes" xml:space="preserve">
+          <source>Reset Wolfie</source>
+          <target state="translated">重置Wolfie</target>
+        </trans-unit>
+        <trans-unit id="Resx/StatsTrigonometry" translate="yes" xml:space="preserve">
+          <source>Stats/Trigonometry</source>
+          <target state="translated">统计、三角函数</target>
+        </trans-unit>
+        <trans-unit id="Resx/SwipeToContinue" translate="yes" xml:space="preserve">
+          <source>Swipe to continue   ››</source>
+          <target state="translated">滑动以继续 ››</target>
+        </trans-unit>
+        <trans-unit id="Resx/Tutorial1Bottom" translate="yes" xml:space="preserve">
+          <source>Wolfie can solve almost everything, from calculus to quantum physics.</source>
+          <target state="translated">Wolfie可以解答几乎任何题目，从微积分学到量子物理。</target>
+        </trans-unit>
+        <trans-unit id="Resx/Tutorial1Top" translate="yes" xml:space="preserve">
+          <source>Wolfie is an advanced keyboard that allows you to interface the well-known WolframAlpha website.</source>
+          <target state="translated">Wolfie是一个高级的键盘。它允许你适用知名的WolframAlpha网站。</target>
+        </trans-unit>
+        <trans-unit id="Resx/WelcomeTo" translate="yes" xml:space="preserve">
+          <source>Welcome to</source>
+          <target state="translated">欢迎</target>
+        </trans-unit>
+        <trans-unit id="Resx/WellDone" translate="yes" xml:space="preserve">
+          <source>Well done!</source>
+          <target state="translated">非常好！</target>
+        </trans-unit>
+        <trans-unit id="Resx/ClearFavourites" translate="yes" xml:space="preserve">
+          <source>Clear Favourites</source>
+          <target state="translated">清除收藏</target>
+        </trans-unit>
+        <trans-unit id="Resx/ClearHistory" translate="yes" xml:space="preserve">
+          <source>Clear History</source>
+          <target state="translated">清楚历史</target>
+        </trans-unit>
+        <trans-unit id="Resx/PinTransparent" translate="yes" xml:space="preserve">
+          <source>Pin transparent tile</source>
+          <target state="translated">固定到主屏幕</target>
+        </trans-unit>
+        <trans-unit id="Resx/TileAlreadyPinned" translate="yes" xml:space="preserve">
+          <source>Tile is already pinned. Before proceeding, unpin the existing one!</source>
+          <target state="translated">已固定到主屏幕。请移除现在已有的tile以继续！</target>
+        </trans-unit>
+        <trans-unit id="Resx/CopyURLtoClipboard" translate="yes" xml:space="preserve">
+          <source>Copy last search URL to Clipboard</source>
+          <target state="translated">拷贝上次搜索的URL到剪贴板</target>
+        </trans-unit>
+        <trans-unit id="Resx/AddToFavourites" translate="yes" xml:space="preserve">
+          <source>Add to Favourites</source>
+          <target state="translated">添加到收藏。</target>
+        </trans-unit>
+        <trans-unit id="Resx/Contacts" translate="yes" xml:space="preserve">
+          <source>Contacts</source>
+          <target state="translated">联系</target>
+        </trans-unit>
+        <trans-unit id="Resx/DeleteItem" translate="yes" xml:space="preserve">
+          <source>Delete Item</source>
+          <target state="translated">删除项目</target>
+        </trans-unit>
+        <trans-unit id="Resx/English" translate="yes" xml:space="preserve">
+          <source>English</source>
+          <target state="translated">英语</target>
+        </trans-unit>
+        <trans-unit id="Resx/Italian" translate="yes" xml:space="preserve">
+          <source>Italian</source>
+          <target state="translated">意大利语</target>
+        </trans-unit>
+        <trans-unit id="Resx/Portoguese" translate="yes" xml:space="preserve">
+          <source>Portoguese</source>
+          <target state="translated">葡萄牙语</target>
+        </trans-unit>
+        <trans-unit id="Resx/Spanish" translate="yes" xml:space="preserve">
+          <source>Spanish</source>
+          <target state="translated">西班牙语</target>
+        </trans-unit>
+        <trans-unit id="Resx/Tongue" translate="yes" xml:space="preserve">
+          <source>Tongue</source>
+          <target state="translated">舌头</target>
+        </trans-unit>
+        <trans-unit id="Resx/TranslationRequest1" translate="yes" xml:space="preserve">
+          <source>Do you want to make your contribution into Wolfie Keyboard translation and get your name here? Reach me out at:</source>
+          <target state="translated">你想为Wolfie Keyboard 做贡献吗而得到知名度吗？想翻译此程序，请联系：</target>
+        </trans-unit>
+        <trans-unit id="Resx/TranslationRequest2" translate="yes" xml:space="preserve">
+          <source>for more info! Thanks in advance!</source>
+          <target state="translated">更多信息! 谢谢！</target>
+        </trans-unit>
+        <trans-unit id="Resx/TranslatorsHeaderButton" translate="yes" xml:space="preserve">
+          <source>Translators of Wolfie</source>
+          <target state="translated">Wolfie的翻译者</target>
+        </trans-unit>
+        <trans-unit id="Resx/TranslatorsText" translate="yes" xml:space="preserve">
+          <source>Translators</source>
+          <target state="translated">翻译者</target>
+        </trans-unit>
+        <trans-unit id="Resx/Chinese" translate="yes" xml:space="preserve">
+          <source>Chinese</source>
+          <target state="translated">中国
+</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

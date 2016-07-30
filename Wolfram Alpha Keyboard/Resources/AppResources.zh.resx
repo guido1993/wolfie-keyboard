@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ResourceFlowDirection" xml:space="preserve">
+    <value>LeftToRight</value>
+    <comment>Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language</comment>
+  </data>
+  <data name="ResourceLanguage" xml:space="preserve">
+    <value>zh</value>
+    <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
+  </data>
+  <data name="RecentSearches" xml:space="preserve">
+    <value>最近搜索</value>
+  </data>
+  <data name="EmptyHistory" xml:space="preserve">
+    <value>您还没有搜索任何东西！点击上面的搜索框吧</value>
+  </data>
+  <data name="EmptyFavourites" xml:space="preserve">
+    <value>这儿没东西！按住历史里的一个条目把它放到这儿 J</value>
+  </data>
+  <data name="Favourites" xml:space="preserve">
+    <value>收藏：</value>
+  </data>
+  <data name="FunnySearches" xml:space="preserve">
+    <value>有趣的搜素</value>
+  </data>
+  <data name="OtherFunctions" xml:space="preserve">
+    <value>其他功能：</value>
+  </data>
+  <data name="RateThisApp" xml:space="preserve">
+    <value>评论此应用</value>
+  </data>
+  <data name="ResetApp" xml:space="preserve">
+    <value>重置Wolfie</value>
+  </data>
+  <data name="Tutorial" xml:space="preserve">
+    <value>教程</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>关于</value>
+  </data>
+  <data name="Advanced" xml:space="preserve">
+    <value>高级</value>
+  </data>
+  <data name="AdvicedApps" xml:space="preserve">
+    <value>推荐的应用：</value>
+  </data>
+  <data name="Basic" xml:space="preserve">
+    <value>基本</value>
+  </data>
+  <data name="ChemistryBiology" xml:space="preserve">
+    <value>化学、生物学</value>
+  </data>
+  <data name="ClearDisplay" xml:space="preserve">
+    <value>清除显示</value>
+  </data>
+  <data name="ConfirmText" xml:space="preserve">
+    <value>确认</value>
+  </data>
+  <data name="CopiedToClipboard" xml:space="preserve">
+    <value>文字已拷贝到剪贴板。</value>
+  </data>
+  <data name="CopyrightText" xml:space="preserve">
+    <value>Wolfie是它的两个创作者的知识产权。这并不意味着侵犯任何版权。这是不相关的以任何方式Wolfram Alpha的有限责任公司，不能被认为是他们的正式产品。</value>
+  </data>
+  <data name="CopyToClipboard" xml:space="preserve">
+    <value>拷贝到剪贴板。</value>
+  </data>
+  <data name="DesignedBy" xml:space="preserve">
+    <value>设计师：</value>
+  </data>
+  <data name="DevelopedBy" xml:space="preserve">
+    <value>开发者：</value>
+  </data>
+  <data name="EmptyListsMessage" xml:space="preserve">
+    <value>确认？</value>
+  </data>
+  <data name="EnhancedMathKeyboards" xml:space="preserve">
+    <value>增强数学键盘</value>
+  </data>
+  <data name="FavouritesManagement" xml:space="preserve">
+    <value>收藏管理</value>
+  </data>
+  <data name="FeaturesOfWolfie" xml:space="preserve">
+    <value>Wolfie的功能</value>
+  </data>
+  <data name="GetStarted" xml:space="preserve">
+    <value>开始！</value>
+  </data>
+  <data name="LoadingText" xml:space="preserve">
+    <value>加载</value>
+  </data>
+  <data name="RecentSearchesSaving" xml:space="preserve">
+    <value>正在保存最近搜索</value>
+  </data>
+  <data name="ResetAppConfirmation" xml:space="preserve">
+    <value>这会删除任何关于Wolfie的数据并会重置。你要前往吗？</value>
+  </data>
+  <data name="ResetAppConfirmationButton" xml:space="preserve">
+    <value>重置Wolfie</value>
+  </data>
+  <data name="StatsTrigonometry" xml:space="preserve">
+    <value>统计、三角函数</value>
+  </data>
+  <data name="SwipeToContinue" xml:space="preserve">
+    <value>滑动以继续 ››</value>
+  </data>
+  <data name="Tutorial1Bottom" xml:space="preserve">
+    <value>Wolfie可以解答几乎任何题目，从微积分学到量子物理。</value>
+  </data>
+  <data name="Tutorial1Top" xml:space="preserve">
+    <value>Wolfie是一个高级的键盘。它允许你适用知名的WolframAlpha网站。</value>
+  </data>
+  <data name="WelcomeTo" xml:space="preserve">
+    <value>欢迎</value>
+  </data>
+  <data name="WellDone" xml:space="preserve">
+    <value>非常好！</value>
+  </data>
+  <data name="ClearFavourites" xml:space="preserve">
+    <value>清除收藏</value>
+  </data>
+  <data name="ClearHistory" xml:space="preserve">
+    <value>清楚历史</value>
+  </data>
+  <data name="PinTransparent" xml:space="preserve">
+    <value>固定到主屏幕</value>
+  </data>
+  <data name="TileAlreadyPinned" xml:space="preserve">
+    <value>已固定到主屏幕。请移除现在已有的tile以继续！</value>
+  </data>
+  <data name="CopyURLtoClipboard" xml:space="preserve">
+    <value>拷贝上次搜索的URL到剪贴板</value>
+  </data>
+  <data name="AddToFavourites" xml:space="preserve">
+    <value>添加到收藏。</value>
+  </data>
+  <data name="Contacts" xml:space="preserve">
+    <value>联系</value>
+  </data>
+  <data name="DeleteItem" xml:space="preserve">
+    <value>删除项目</value>
+  </data>
+  <data name="English" xml:space="preserve">
+    <value>英语</value>
+  </data>
+  <data name="Italian" xml:space="preserve">
+    <value>意大利语</value>
+  </data>
+  <data name="Portoguese" xml:space="preserve">
+    <value>葡萄牙语</value>
+  </data>
+  <data name="Spanish" xml:space="preserve">
+    <value>西班牙语</value>
+  </data>
+  <data name="Tongue" xml:space="preserve">
+    <value>舌头</value>
+  </data>
+  <data name="TranslationRequest1" xml:space="preserve">
+    <value>你想为Wolfie Keyboard 做贡献吗而得到知名度吗？想翻译此程序，请联系：</value>
+  </data>
+  <data name="TranslationRequest2" xml:space="preserve">
+    <value>更多信息! 谢谢！</value>
+  </data>
+  <data name="TranslatorsHeaderButton" xml:space="preserve">
+    <value>Wolfie的翻译者</value>
+  </data>
+  <data name="TranslatorsText" xml:space="preserve">
+    <value>翻译者</value>
+  </data>
+  <data name="Chinese" xml:space="preserve">
+    <value>中国
+</value>
+  </data>
+</root>
