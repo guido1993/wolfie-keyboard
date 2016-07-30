@@ -25,12 +25,12 @@ The app is fully localized in:
 
 Features of Wolfie:
 
-✓ Keyboards optimized for Math
-✓ Keyboards optimized for Statistics
-✓ Keyboards optimized for Biology and Chemistry
-✓ Manage your favorites
-✓ Search History
-✓ And everything else WolframAlpha can handle
+* Keyboards optimized for Math
+* Keyboards optimized for Statistics
+* Keyboards optimized for Biology and Chemistry
+* Manage your favorites
+* Search History
+* And everything else WolframAlpha can handle
 
 Below here, a series of screenshots that show the content of the app:
 
